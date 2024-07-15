@@ -19,19 +19,23 @@
 
 ## Dataset :
 
-- dataset.ipynb : Generate a dataset of signal data that is channel coded using convolutional code.
-~~ channel.py : Implements of channel noise effect
+### Regacy code
+- dataset.ipynb : Generate a dataset of signal data that is channel coded using 3 types of convolutional code.
+- channel.py : Implements of channel noise effect
 - conv.py : Implements of convolutional code
-- seq2img.ipynb : Convert sequence data to img data ~~
+- seq2img.ipynb : Convert sequence data to img data
 
-- dataset_2.ipynb : Generate a dataset of signal data that is channel encoded using 7 types channel coding.
+### Latest code
+- dataset_2.ipynb : Generate a dataset of signal data that is channel encoded using 7 types of channel coding.
 
 ## Model :
 
-~~ - Recognition.ipynb : Simulation code targeting bitstream or bitstring data composed of 0s and 1s.
+### Regacy code
+- Recognition.ipynb : Simulation code targeting bitstream or bitstring data composed of 0s and 1s.
 - Recognition_IMG.ipynb : Simulation code targeting 128x1 image data that made from a bitstring.
-- Recognition_IMG_2.ipynb : Same as 1, but the target(Input) image size is 128x128. ~~
+- Recognition_IMG_2.ipynb : Same as 1, but the target(Input) image size is 128x128. 
 
+### Latest code
 - Recongition_2.ipynb : Simulation code targeting bitsteam data composed of 0s and 1s (shape = 32*32, ... like a square shape)
 
 # Approach
