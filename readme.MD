@@ -20,7 +20,7 @@
 ## Dataset :
 
 - dataset.ipynb : Generate a dataset of signal data that is channel coded using convolutional code.
-~~ - channel.py : Implements of channel noise effect
+~~ channel.py : Implements of channel noise effect
 - conv.py : Implements of convolutional code
 - seq2img.ipynb : Convert sequence data to img data ~~
 
