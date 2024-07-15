@@ -20,23 +20,26 @@
 ## Dataset :
 
 - dataset.ipynb : Generate a dataset of signal data that is channel coded using convolutional code.
-- channel.py : Implements of channel noise effect
+~~ - channel.py : Implements of channel noise effect
 - conv.py : Implements of convolutional code
-- seq2img.ipynb : Convert sequence data to img data
+- seq2img.ipynb : Convert sequence data to img data ~~
+
+- dataset_2.ipynb : Generate a dataset of signal data that is channel encoded using 7 types channel coding.
 
 ## Model :
 
-- Recognition.ipynb : Simulation code targeting bitstream or bitstring data composed of 0s and 1s.
+~~ - Recognition.ipynb : Simulation code targeting bitstream or bitstring data composed of 0s and 1s.
 - Recognition_IMG.ipynb : Simulation code targeting 128x1 image data that made from a bitstring.
-- Recognition_IMG_2.ipynb : Same as 1, but the target(Input) image size is 128x128.
-- ...
+- Recognition_IMG_2.ipynb : Same as 1, but the target(Input) image size is 128x128. ~~
+
+- Recongition_2.ipynb : Simulation code targeting bitsteam data composed of 0s and 1s (shape = 32*32, ... like a square shape)
 
 # Approach
 
 ## Step 1: Run dataset.ipynb
 
-## Step 2: Run seq2img.ipynb (Skip this step if you want to use the sequence dataset)
-
+## Step 2: Run seq2img.ipynb (Skip this step if you want to use the sequence dataset) 
+ 
 ```
 - If you want image dataset that size is 128x1, Run Cell 1
 - If you want image dataset that size is 128x128, Run Cell 2
