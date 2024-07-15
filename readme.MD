@@ -63,6 +63,7 @@
 # 파일 실행방법
 
 IDE (IntelliJ, VS Code, Visual Studio, Jypyter Notebook 등)에서 ipynb 파일을 열어 순차적으로 Cell을 실행
+
 py 파일은 클래스 정의 파일로 실행할 필요 없음
 
 데이터 셋 생성은 dataset.ipynb 에서 Cell 1 - Cell 2 만 실행
